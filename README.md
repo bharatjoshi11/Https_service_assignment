@@ -36,6 +36,8 @@ These steps will create a build of lambda code in your windows environment , we 
 
 --> User hits the api as per his path request , api gateway has a proxy setup which handles the path structure ex. https://api/{path+} , lambda code takes the path from api and process the code to fetch data from s3.
 
+[!screenshot][one2n_architecture.png]
+
 
 ##Assumption
 
@@ -49,6 +51,8 @@ These steps will create a build of lambda code in your windows environment , we 
 ## Working
 
 -> In this repo we are creating a serverless application using AWS Apigateway , s3 bucket and Lambda functions . Using api gateway endpoint we are triggering lambda function which have a golang code to use AWS SDK and list all the content inside our bucket according to the api path.
+
+-> Terraform module creating lambda , apigateway , s3 bucket , Iam role for lambda and policies for bucket
 
 
 
