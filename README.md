@@ -36,7 +36,7 @@ These steps will create a build of lambda code in your windows environment , we 
 
 --> User hits the api as per his path request , api gateway has a proxy setup which handles the path structure ex. https://api/{path+} , lambda code takes the path from api and process the code to fetch data from s3.
 
-([https://github.com/user-attachments/assets/809b8327-fbad-476b-83cd-462a457dcf4f](https://github.com/bharatjoshi11/Https_service_assignment/blob/5077972dc4df0c8cb39f1ad992e8e9fa52e11a01/one2n_architecture.png))
+![one2n_image](https://github.com/bharatjoshi11/Https_service_assignment/blob/5077972dc4df0c8cb39f1ad992e8e9fa52e11a01/one2n_architecture.png)
 
 
 ##Assumption
