@@ -6,7 +6,6 @@ Configuration in this directory creates Golang code to get data from a s3 bucket
 
 To run this Application you need to execute:
 
-```bash
 # Build for lambda code
 
 These steps will create a build of lambda code in your windows environment , we can also build the code build using CI/CD pipeline.
@@ -36,7 +35,12 @@ These steps will create a build of lambda code in your windows environment , we 
 
 --> User hits the api as per his path request , api gateway has a proxy setup which handles the path structure ex. https://api/{path+} , lambda code takes the path from api and process the code to fetch data from s3.
 
-(https://github.com/bharatjoshi11/Https_service_assignment/blob/main/one2n_architecture.png?raw=true)
+![one2n_architecture](https://github.com/user-attachments/assets/d0b28e8b-ae97-47a4-89c7-a19b2b5b446b)
+
+
+![one2n_s3](https://github.com/user-attachments/assets/c212c67f-00e2-4ddf-81fd-6efd72f2474e)
+
+
 
 
 ##Assumption
@@ -54,9 +58,11 @@ These steps will create a build of lambda code in your windows environment , we 
 
 -> Terraform module creating lambda , apigateway , s3 bucket , Iam role for lambda and policies for bucket
 
+![one2n_dir2](https://github.com/user-attachments/assets/5a3801f7-7487-42fb-b5dd-d33517600851)
+![on2n_root_ss](https://github.com/user-attachments/assets/1a8a3920-a809-44a5-b271-e8545293ab8c)
+![on2n_dir](https://github.com/user-attachments/assets/cf69b0c4-cfd4-4156-acef-c9a880fe815f)
 
 
-```
 
 ## Api endpoint
 
