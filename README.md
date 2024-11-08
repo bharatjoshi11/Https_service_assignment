@@ -74,7 +74,7 @@ https://github.com/user-attachments/assets/b5e288bb-a18c-43d4-9288-2cb22c7e04a9
 
 | Name                                               | Source                                                     |
 | -------------------------------------------------- | ---------------------------------------------------------- |
-| <a name="AWS Api-endpoint"></a> [AWS Api-endpoint] | https://github.com/cloudeq-EMU-ORG/ceq_tf_template_aws_acm |
+| <a name="AWS Api-endpoint"></a> [AWS Api-endpoint] | https://dypsl87gh0.execute-api.us-east-1.amazonaws.com/list-bucket-content |
 
 ## Resources
 
