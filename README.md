@@ -12,14 +12,12 @@ These steps will create a build of lambda code in your windows environment , we 
 
 
 1. $env:GOOS = "linux"
-
 2. $env:GOARCH = "amd64"
-
 3. $env:CGO_ENABLED = "0"
-
-4. go build -o Handler main.go
-
-5. ~\Go\Bin\build-lambda-zip.exe -o lambda-handler.zip Handler
+4. go mod init
+5. go mod tidy
+7. go build -o Handler main.go
+8. ~\Go\Bin\build-lambda-zip.exe -o lambda-handler.zip Handler
 
 ## Infra creation using terraform
 
@@ -61,6 +59,14 @@ These steps will create a build of lambda code in your windows environment , we 
 ![one2n_dir2](https://github.com/user-attachments/assets/5a3801f7-7487-42fb-b5dd-d33517600851)
 ![on2n_root_ss](https://github.com/user-attachments/assets/1a8a3920-a809-44a5-b271-e8545293ab8c)
 ![on2n_dir](https://github.com/user-attachments/assets/cf69b0c4-cfd4-4156-acef-c9a880fe815f)
+
+
+##Demo video
+
+
+
+https://github.com/user-attachments/assets/b5e288bb-a18c-43d4-9288-2cb22c7e04a9
+
 
 
 
